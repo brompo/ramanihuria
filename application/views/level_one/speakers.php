@@ -82,7 +82,7 @@
     height: calc(100% );
     background-color: rgba(36, 57, 83, 0.8);
     text-align: center;
-    padding-top: 80px;
+    padding-top: 140px;
     padding-left: 20px;
     padding-right: 20px;
 
@@ -92,8 +92,7 @@
 
 }
 .speaker .speaker-image{
-    background-image: url('<?=base_url("assets/images/sapmle1.jpg")?>');
-
+  
 }
 .speaker:nth-child(odd) .speaker-image{
     /*background-image: url('http://placehold.it/427x427?text=SPEAKER IMAGE 427 X 427');*/
@@ -118,11 +117,13 @@
 }
 .speaker-desc .speaker-social{
     font-size: 1.5em;
-    padding-top: 20px;
+    padding-top: 10px;
     display: block;
     text-align: left;
-
-
+}
+.speaker-social
+{
+    float:right;
 }
  .speaker-desc .speaker-social a i{
      transition: all 0.4s ease-in;
@@ -195,7 +196,7 @@
                 </span>
             </div>
             <div class="speaker-image">
-            <img class="image_speaker" src="assets/images/sapmle1.jpg">
+            <img class="image_speaker" src="assets/images/speakers/bella.jpg">
 
             </div>
          </div> <!-- End of Speaker Div -->
@@ -214,7 +215,7 @@
                 </span>
             </div>
             <div class="speaker-image">
-                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+                <img class="image_speaker" src="assets/images/speakers/mshinda.png">
             </div>
         </div><!-- End of Speaker Div -->
         <div class="speaker"> <!-- Start of Speakers Div -->
@@ -232,7 +233,7 @@
                 </span>
             </div>
             <div class="speaker-image">
-                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+                <img class="image_speaker" src="assets/images/speakers/maholi.jpg">
             </div>
         </div><!-- End of Speaker Div -->
 
@@ -248,7 +249,7 @@
                 </span>
             </div>
             <div class="speaker-image">
-                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+                <img class="image_speaker" src="assets/images/speakers/arrighi.jpg">
             </div>
         </div><!-- End of Speaker Div -->
 
@@ -264,7 +265,7 @@
                 </span>
             </div>
             <div class="speaker-image">
-                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+                <img class="image_speaker" src="assets/images/speakers/kimacha.jpg">
             </div>
         </div><!-- End of Speaker Div -->
 
@@ -280,7 +281,7 @@
                 </span>
             </div>
             <div class="speaker-image">
-                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+                <img class="image_speaker" src="assets/images/speakers/letara.jpg">
             </div>
         </div><!-- End of Speaker Div -->
 
@@ -296,7 +297,7 @@
                 </span>
             </div>
             <div class="speaker-image">
-                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+                <img class="image_speaker" src="assets/images/speakers/minja.jpg">
             </div>
         </div><!-- End of Speaker Div -->
         <div class="speaker"> <!-- Start of Speakers Div -->
@@ -311,7 +312,7 @@
                 </span>
             </div>
             <div class="speaker-image">
-                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+                <img class="image_speaker" src="assets/images/speakers/lossai.jpg">
             </div>
         </div><!-- End of Speaker Div -->
 
@@ -327,7 +328,7 @@
                 </span>
             </div>
             <div class="speaker-image">
-                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+                <img class="image_speaker" src="assets/images/speakers/msangi.jpg">
             </div>
         </div><!-- End of Speaker Div -->
 
@@ -343,7 +344,7 @@
                 </span>
             </div>
             <div class="speaker-image">
-                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+                <img class="image_speaker" src="assets/images/speakers/mrema.jpg">
             </div>
         </div><!-- End of Speaker Div -->
 
@@ -359,7 +360,7 @@
                 </span>
             </div>
             <div class="speaker-image">
-                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+                <img class="image_speaker" src="assets/images/speakers/mckenzie.png">
             </div>
         </div><!-- End of Speaker Div -->
 
@@ -375,7 +376,7 @@
                 </span>
             </div>
             <div class="speaker-image">
-                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+                <img class="image_speaker" src="assets/images/speakers/anderson.jpg">
             </div>
         </div><!-- End of Speaker Div -->
 
@@ -391,7 +392,7 @@
                 </span>
             </div>
             <div class="speaker-image">
-                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+                <img class="image_speaker" src="assets/images/speakers/mbuya.png">
             </div>
         </div><!-- End of Speaker Div -->
         
@@ -407,7 +408,7 @@
                 </span>
             </div>
             <div class="speaker-image">
-                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+                <img class="image_speaker" src="assets/images/speakers/laurent.jpg">
             </div>
         </div><!-- End of Speaker Div -->
 
@@ -423,7 +424,7 @@
                 </span>
             </div>
             <div class="speaker-image">
-                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+                <img class="image_speaker" src="assets/images/speakers/kovacic.jpg">
             </div>
         </div><!-- End of Speaker Div -->
 
@@ -439,7 +440,7 @@
                 </span>
             </div>
             <div class="speaker-image">
-                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+                <img class="image_speaker" src="assets/images/speakers/mayunga.jpg">
             </div>
         </div><!-- End of Speaker Div -->
 
@@ -455,7 +456,7 @@
                 </span>
             </div>
             <div class="speaker-image">
-                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+                <img class="image_speaker" src="assets/images/speakers/msuya.jpg">
             </div>
         </div><!-- End of Speaker Div -->
 
@@ -471,7 +472,7 @@
                 </span>
             </div>
             <div class="speaker-image">
-                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+                <img class="image_speaker" src="assets/images/speakers/price.jpg">
             </div>
         </div><!-- End of Speaker Div -->
 
@@ -488,7 +489,7 @@
                 </span>
             </div>
             <div class="speaker-image">
-                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+                <img class="image_speaker" src="assets/images/speakers/juma.jpg">
             </div>
         </div><!-- End of Speaker Div -->
 
@@ -504,7 +505,7 @@
                 </span>
             </div>
             <div class="speaker-image">
-                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+                <img class="image_speaker" src="assets/images/speakers/pore.jpg">
             </div>
         </div><!-- End of Speaker Div -->
 
@@ -520,7 +521,7 @@
                 </span>
             </div>
             <div class="speaker-image">
-                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+                <img class="image_speaker" src="assets/images/speakers/mather.jpg">
             </div>
         </div><!-- End of Speaker Div -->
 
@@ -536,7 +537,7 @@
                 </span>
             </div>
             <div class="speaker-image">
-                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+                <img class="image_speaker" src="assets/images/speakers/rovira.jpg">
             </div>
         </div><!-- End of Speaker Div -->
 

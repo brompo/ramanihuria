@@ -14,7 +14,8 @@
         height: auto;
         /*min-height: 500px;*/
         display: table;
-        background-color: #ece8de;
+        /*background-color: #ece8de;*/
+        background-color:#ffffff;
         background-size: cover;
         padding: 60px 10%;
 
@@ -60,19 +61,39 @@
         display: table;
     }
     .partners-container a{
-        width: calc(33.33333% - 30px);
+       /* width: calc(33.33333% - 30px);*/
         height: auto;
         min-height: 100px;
         display: table-cell;
         float: left;
         vertical-align: middle;
-        margin-left:30px;
-
-
+        /*margin-left:30px;*/
     }
+
     .partners-container .partner-image{
 
     }
+    .partner-logo{
+        width:150px;
+        height:100px;
+        float:left;
+        margin:5px;
+        text-align: center;
+        white-space: nowrap;
+    }
+    .image-helper{
+         display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    }
+    .partner-image{
+        width: auto;
+        max-width: 150px;
+        height: auto;
+        max-height: 100px;
+        vertical-align: middle;
+    }
+
     @media only screen and (max-width: 780px) {
         .ipf-partners:after{
             display: none;
@@ -134,15 +155,37 @@
     <h1>OUR <br/>PARTNERS</h1>
     <h2>November 7th and 8th will mark the beginning of a new era for Dar Ramani Huria – a community mapping project that launched last year with a focus on improving Dar es Salaam’s flood resilience. </h2>
     <div class="partners-container z-2">
+    <div class="partner-logo">
+        <span class="image-helper"></span><img class="partner-image"  src="<?=base_url('assets/images/partners/World_Bank_Group_logo.png')?>">
+    </div>
+    <div class="partner-logo">
+         <span class="image-helper"></span><img class="partner-image"  src="<?=base_url('assets/images/partners/Hot-logo-with-text_red.png')?>">
+    </div>
+    <div class="partner-logo">
+        <span class="image-helper"></span><img class="partner-image"  src="<?=base_url('assets/images/partners/ardhiuniversity.png')?>">
+    </div>
+    <div class="partner-logo">
+        <span class="image-helper"></span><img class="partner-image"  src="<?=base_url('assets/images/partners/arc.png')?>">
+    </div>
 
-        <a><img class="partner-image"  src="<?=base_url('assets/images/buni.png')?>" width="150"></a>
-        <a><img class="partner-image"  src="<?=base_url('assets/images/redcross.jpg')?>" width="150"></a>
-        <a><img class="partner-image"  src="<?=base_url('assets/images/wolrdbank.png')?>" width="150"></a>
-        <a><img class="partner-image"  src="<?=base_url('assets/images/buni.png')?>" width="150"></a>
-        <a><img class="partner-image"  src="<?=base_url('assets/images/redcross.jpg')?>" width="150"></a>
-        <a><img class="partner-image"  src="<?=base_url('assets/images/buni.png')?>" width="150"></a>
-
-
+    <div class="partner-logo">
+        <span class="image-helper"></span><img class="partner-image"  src="<?=base_url('assets/images/partners/costech.png')?>">
+    </div>
+    <div class="partner-logo">
+        <span class="image-helper"></span><img class="partner-image"  src="<?=base_url('assets/images/partners/todi.png')?>">
+    </div>
+    <div class="partner-logo">
+        <span class="image-helper"></span><img class="partner-image"  src="<?=base_url('assets/images/partners/buni.png')?>" > 
+    </div>
+    <div class="partner-logo">
+        <span class="image-helper"></span><img class="partner-image"  src="<?=base_url('assets/images/partners/c4daUDSM.jpg')?>">
+    </div>
+    <div class="partner-logo">
+        <span class="image-helper"></span><img class="partner-image"  src="<?=base_url('assets/images/partners/gfdrr.png')?>">
+    </div>
+    <div class="partner-logo">
+        <span class="image-helper"></span><img class="partner-image" title="Kinondoni Municipal Council"  src="<?=base_url('assets/images/partners/Dar_MCC.jpg')?>">
+    </div>
 
     </div>
 </section>
