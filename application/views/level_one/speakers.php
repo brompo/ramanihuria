@@ -13,7 +13,10 @@
      width: 100%;
      height: auto;
      display: table;
-     padding: 80px 10% 0;
+     /*padding: 80px 10% 0;*/
+     padding-top:10%;
+     padding-right:50px;
+     padding-left:50px;
      background-color: #ece8de;
 
  }
@@ -50,21 +53,26 @@
      display: table;
  }
  .speaker{
-     width: calc(33.33333% - 20px);
-     height: auto;
-     min-height: 300px;
-     display: table;
-     float: left;
-     overflow: hidden;
-     margin-right: 20px;
-     margin-bottom: 20px;
+   width: calc(25% - 5px);
+   /*width:25px;*/
+       height: auto;
+       max-height: 300px;
+       display: table;
+       float: left;
+       overflow: hidden;
+       margin-right: 5px;
+       margin-bottom: 5px;
 
  }
 .speaker-image{
     width: 100%;
-    height: 380px;
+    height: 300px;
     background-size: cover;
     background-color: lightgrey;
+}
+.image_speaker{
+    width:100%;
+    height:inherit;
 }
 .speaker-desc{
     position: absolute;
@@ -74,7 +82,7 @@
     height: calc(100% );
     background-color: rgba(36, 57, 83, 0.8);
     text-align: center;
-    padding-top: 100px;
+    padding-top: 80px;
     padding-left: 20px;
     padding-right: 20px;
 
@@ -110,7 +118,7 @@
 }
 .speaker-desc .speaker-social{
     font-size: 1.5em;
-    padding-top: 50px;
+    padding-top: 20px;
     display: block;
     text-align: left;
 
@@ -130,15 +138,27 @@
     color: white;
     font-size: 3.5em;
 }
+
+@media only screen and (max-width: 1050px)
+{
+    .speaker{
+         width: calc(33.3% - 5px);
+     }
+     .ipf-speaker{
+         padding: 0px 20px 0;
+     }
+}
+
+
  @media only screen and (max-width: 780px) {
      .ipf-speaker >h1:after,.ipf-speaker >h1:before{
          display: none;
      }
      .speaker{
-         width: calc(50% - 20px);
+         width: calc(50% - 5px);
      }
      .ipf-speaker{
-         padding: 80px 20px 0;
+         padding: 0px 20px 0;
      }
  }
 
@@ -150,7 +170,7 @@
          width: 100%;
      }
      .ipf-speaker{
-         padding: 80px 20px 0;
+         padding: 0px 20px 0;
      }
      .speaker{
          margin-right: 0;
@@ -163,24 +183,363 @@
 <section class="ipf-speaker z-2">
     <h1>OUR SPEAKERS</h1>
     <div class="speakers-container">
-        <?for($x=0;$x<6;$x++){?>
-        <div class="speaker">
+       <div class="speaker"> <!-- Start of Speakers Div -->
             <div class="speaker-desc z-2 animated">
 
-                <h1 class="speaker-name">Mr.Peter Msechu</h1>
-                <h1 class="speaker-title">Every year during the rainy season, Dar suffers from devastating floods that wipe out roads, take out houses, and result in many </h1>
+                <h1 class="speaker-name">Bella Bird</h1>
+                <h1 class="speaker-title"><p>Country Director for the World Bank in Tanzania, Burundi, Malawi, and Somalia.</p></br>
+<p></p> </h1>
                 <span class="speaker-social">
                     <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;&nbsp;&nbsp;
                     <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
                 </span>
             </div>
             <div class="speaker-image">
+            <img class="image_speaker" src="assets/images/sapmle1.jpg">
 
             </div>
+         </div> <!-- End of Speaker Div -->
+        <div class="speaker"> <!-- Start of Speakers Div -->
+            <div class="speaker-desc z-2 animated">
+
+                <h1 class="speaker-name">Dr Hassan Mshinda</h1>
+                <h1 class="speaker-title">
+                <p>Director General of Tanzania Commission for Science and Technology in Tanzania
+                </p></br>
+                <p></p> 
+                </h1>
+                <span class="speaker-social">
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </span>
+            </div>
+            <div class="speaker-image">
+                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+            </div>
+        </div><!-- End of Speaker Div -->
+        <div class="speaker"> <!-- Start of Speakers Div -->
+            <div class="speaker-desc z-2 animated">
+
+                <h1 class="speaker-name">Innocent Maholi</h1>
+                <h1 class="speaker-title">
+                <p>Mapping Supervisor, Tanzania Humanitarian OpenStreetMap Team 
+                </p></br>
+                <p>
+                </p> </h1>
+                <span class="speaker-social">
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </span>
+            </div>
+            <div class="speaker-image">
+                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+            </div>
+        </div><!-- End of Speaker Div -->
+
+         <div class="speaker"> <!-- Start of Speakers Div -->
+            <div class="speaker-desc z-2 animated">
+
+                <h1 class="speaker-name">Julie Arrighi</h1>
+                <h1 class="speaker-title"><p>Resilience Advisor for American Red Cross in Africa</p></br>
+                <p></p> </h1>
+                <span class="speaker-social">
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </span>
+            </div>
+            <div class="speaker-image">
+                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+            </div>
+        </div><!-- End of Speaker Div -->
+
+        <div class="speaker"> <!-- Start of Speakers Div -->
+            <div class="speaker-desc z-2 animated">
+
+                <h1 class="speaker-name">Nyambiri Kimacha</h1>
+                <h1 class="speaker-title"><p></p></br>
+                <p></p> </h1>
+                <span class="speaker-social">
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </span>
+            </div>
+            <div class="speaker-image">
+                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+            </div>
+        </div><!-- End of Speaker Div -->
+
+        <div class="speaker"> <!-- Start of Speakers Div -->
+            <div class="speaker-desc z-2 animated">
+
+                <h1 class="speaker-name">Juliana Letara</h1>
+                <h1 class="speaker-title"><p>Head of Urban Planning Department for Kinondoni Municipal Council </p></br>
+                <p></p> </h1>
+                <span class="speaker-social">
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </span>
+            </div>
+            <div class="speaker-image">
+                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+            </div>
+        </div><!-- End of Speaker Div -->
+
+        <div class="speaker"> <!-- Start of Speakers Div -->
+            <div class="speaker-desc z-2 animated">
+
+                <h1 class="speaker-name">Deogratias Minja</h1>
+                <h1 class="speaker-title"><p>Community Mapping Analyst, World Bank  </p></br>
+                <p></p> </h1>
+                <span class="speaker-social">
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </span>
+            </div>
+            <div class="speaker-image">
+                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+            </div>
+        </div><!-- End of Speaker Div -->
+        <div class="speaker"> <!-- Start of Speakers Div -->
+            <div class="speaker-desc z-2 animated">
+
+                <h1 class="speaker-name">Osiligi Lossai</h1>
+                <h1 class="speaker-title"><p>Ward Executive Officer of Tandale </p></br>
+                <p></p> </h1>
+                <span class="speaker-social">
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </span>
+            </div>
+            <div class="speaker-image">
+                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+            </div>
+        </div><!-- End of Speaker Div -->
+
+        <div class="speaker"> <!-- Start of Speakers Div -->
+            <div class="speaker-desc z-2 animated">
+
+                <h1 class="speaker-name">Charles Msangi</h1>
+                <h1 class="speaker-title"><p>Disaster Focal Point, Disaster Management Department </p></br>
+                <p></p> </h1>
+                <span class="speaker-social">
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </span>
+            </div>
+            <div class="speaker-image">
+                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+            </div>
+        </div><!-- End of Speaker Div -->
+
+        <div class="speaker"> <!-- Start of Speakers Div -->
+            <div class="speaker-desc z-2 animated">
+
+                <h1 class="speaker-name">Elizabeth Mrema</h1>
+                <h1 class="speaker-title"><p>Senior Mapping Officer, Tanzanian Ministry of Lands </p></br>
+                <p></p> </h1>
+                <span class="speaker-social">
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </span>
+            </div>
+            <div class="speaker-image">
+                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+            </div>
+        </div><!-- End of Speaker Div -->
+
+        <div class="speaker"> <!-- Start of Speakers Div -->
+            <div class="speaker-desc z-2 animated">
+
+                <h1 class="speaker-name">Denise McKenzie</h1>
+                <h1 class="speaker-title"><p>Executive Director Communications and Outreach for the Open Geospatial Consortium  </p></br>
+                <p></p> </h1>
+                <span class="speaker-social">
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </span>
+            </div>
+            <div class="speaker-image">
+                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+            </div>
+        </div><!-- End of Speaker Div -->
+
+        <div class="speaker"> <!-- Start of Speakers Div -->
+            <div class="speaker-desc z-2 animated">
+
+                <h1 class="speaker-name">Edward Anderson </h1>
+                <h1 class="speaker-title"><p>Senior Disaster Risk Management Specialist at the World Bank</p></br>
+                <p></p> </h1>
+                <span class="speaker-social">
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </span>
+            </div>
+            <div class="speaker-image">
+                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+            </div>
+        </div><!-- End of Speaker Div -->
+
+        <div class="speaker"> <!-- Start of Speakers Div -->
+            <div class="speaker-desc z-2 animated">
+
+                <h1 class="speaker-name">Freddy Mbuya</h1>
+                <h1 class="speaker-title"><p>Consultant for World Bank - Tanzania Open Data Initiative (TODI)  </p></br>
+                <p></p> </h1>
+                <span class="speaker-social">
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </span>
+            </div>
+            <div class="speaker-image">
+                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+            </div>
+        </div><!-- End of Speaker Div -->
+        
+        <div class="speaker"> <!-- Start of Speakers Div -->
+            <div class="speaker-desc z-2 animated">
+
+                <h1 class="speaker-name">Devotha Laurent</h1>
+                <h1 class="speaker-title"><p>Consultant for World Bank - Tanzania Open Data Initiative (TODI)  </p></br>
+                <p></p> </h1>
+                <span class="speaker-social">
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </span>
+            </div>
+            <div class="speaker-image">
+                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+            </div>
+        </div><!-- End of Speaker Div -->
+
+        <div class="speaker"> <!-- Start of Speakers Div -->
+            <div class="speaker-desc z-2 animated">
+
+                <h1 class="speaker-name">Primoz Kovacic</h1>
+                <h1 class="speaker-title"><p>Co-Founder & Director of Operations, Spatial Collective</p></br>
+                <p></p> </h1>
+                <span class="speaker-social">
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </span>
+            </div>
+            <div class="speaker-image">
+                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+            </div>
+        </div><!-- End of Speaker Div -->
+
+        <div class="speaker"> <!-- Start of Speakers Div -->
+            <div class="speaker-desc z-2 animated">
+
+                <h1 class="speaker-name">Professor Joseph Mayunga</h1>
+                <h1 class="speaker-title"><p>Professor of Disaster Risk Management, Ardhi University</p></br>
+                <p></p> </h1>
+                <span class="speaker-social">
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </span>
+            </div>
+            <div class="speaker-image">
+                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+            </div>
+        </div><!-- End of Speaker Div -->
+
+        <div class="speaker"> <!-- Start of Speakers Div -->
+            <div class="speaker-desc z-2 animated">
+
+                <h1 class="speaker-name">Brigadier General Mbazi Msuya</h1>
+                <h1 class="speaker-title"><p>Director of Disaster Management Department Tanzania</p></br>
+                <p></p> </h1>
+                <span class="speaker-social">
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </span>
+            </div>
+            <div class="speaker-image">
+                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+            </div>
+        </div><!-- End of Speaker Div -->
+
+        <div class="speaker"> <!-- Start of Speakers Div -->
+            <div class="speaker-desc z-2 animated">
+
+                <h1 class="speaker-name">Rhinnan Price</h1>
+                <h1 class="speaker-title"><p>Senior Manager, Global Development Program, Digital Globe</p></br>
+                <p></p> </h1>
+                <span class="speaker-social">
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </span>
+            </div>
+            <div class="speaker-image">
+                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+            </div>
+        </div><!-- End of Speaker Div -->
 
 
-        </div>
-        <?}?>
+        <div class="speaker"> <!-- Start of Speakers Div -->
+            <div class="speaker-desc z-2 animated">
+
+                <h1 class="speaker-name">Dr. Mohammed Juma</h1>
+                <h1 class="speaker-title"><p>Director of Urban Planning, Zanzibar Commission for Lands</p></br>
+                <p></p> </h1>
+                <span class="speaker-social">
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </span>
+            </div>
+            <div class="speaker-image">
+                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+            </div>
+        </div><!-- End of Speaker Div -->
+
+        <div class="speaker"> <!-- Start of Speakers Div -->
+            <div class="speaker-desc z-2 animated">
+
+                <h1 class="speaker-name">Meenal Pore</h1>
+                <h1 class="speaker-title"><p>Research Lead, IBM Africa</p></br>
+                <p></p> </h1>
+                <span class="speaker-social">
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </span>
+            </div>
+            <div class="speaker-image">
+                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+            </div>
+        </div><!-- End of Speaker Div -->
+
+        <div class="speaker"> <!-- Start of Speakers Div -->
+            <div class="speaker-desc z-2 animated">
+
+                <h1 class="speaker-name">Steve Mather</h1>
+                <h1 class="speaker-title"><p>City of Portland</p></br>
+                <p></p> </h1>
+                <span class="speaker-social">
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </span>
+            </div>
+            <div class="speaker-image">
+                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+            </div>
+        </div><!-- End of Speaker Div -->
+
+        <div class="speaker"> <!-- Start of Speakers Div -->
+            <div class="speaker-desc z-2 animated">
+
+                <h1 class="speaker-name">David Rovira</h1>
+                <h1 class="speaker-title"><p>Sensefly </p></br>
+                <p></p> </h1>
+                <span class="speaker-social">
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </span>
+            </div>
+            <div class="speaker-image">
+                <img class="image_speaker" src="assets/images/sapmle1.jpg">
+            </div>
+        </div><!-- End of Speaker Div -->
+
     </div>
 
 

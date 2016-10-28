@@ -19,6 +19,8 @@
 
     <link  href="<?php echo base_url('assets/font-awesome-4.6.3/css/font-awesome.css'); ?>" rel="stylesheet" />
     <link  href="<?php echo base_url('assets/css/reset.css'); ?>" rel="stylesheet"/>
+    <link  href="<?php echo base_url('assets/css/TimeCircles.css'); ?>" rel="stylesheet"/>
+
     <link  href="<?php echo base_url('assets/css/ipfstyle.css'); ?>" rel="stylesheet"/>
     <link  href="<?php echo base_url('assets/css/buttons.css'); ?>" rel="stylesheet"/>
     <link  href="<?php echo base_url('assets/css/animate.css'); ?>" rel="stylesheet"/>

@@ -48,7 +48,7 @@
        float: left;
    }
    .about-left{
-        border-right: solid 2px rgb(36,57,83);
+        border-right: solid 1px rgb(36,57,83);
        padding-right: 5%;
 
    }
@@ -108,7 +108,7 @@
         <h1 class="about-title">
             THE WORKSHOP
         </h1>
-        <h2><span class="about-text z-2">
+        <h2><span class="about-text z-2 brand-blue">
             November 7th and 8th will mark the beginning of a new era for Dar Ramani Huria – a community mapping project that launched last year with a focus on improving Dar es Salaam’s flood resilience. 
             <br/> <br/>
             <span class="brand-blue">As articulated by Osiligi Lossai, Ward Officer of the largely unplanned settlement of Tandale, “Now we have a map and a map is something to start with. It is a roadmap for us to set up new plans, to organize ourselves while involving the community - and the community can have a sense of ownership over our new plan for development. Let’s not end here, because this is just the beginning.” Acting upon this advice, Dar Ramani Huria will be scaling up and expanding its horizons. </span>
@@ -119,7 +119,7 @@
         <h1 class="about-title">
             ABOUT US
         </h1>
-        <h2 class="about-text">Dar Ramani Huria (Swahili for Dar Open Map) is a community-based mapping project that began in Dar es Salaam, Tanzania, training university students and local community members to create highly accurate maps of the most flood-prone areas of the city. As the maps took shape - their benefits multiplied and their potential magnified, now ready to serve as foundational tools for development within all socio-economic spheres.
+        <h2 class="about-text brand-blue">Dar Ramani Huria (Swahili for Dar Open Map) is a community-based mapping project that began in Dar es Salaam, Tanzania, training university students and local community members to create highly accurate maps of the most flood-prone areas of the city. As the maps took shape - their benefits multiplied and their potential magnified, now ready to serve as foundational tools for development within all socio-economic spheres.
             <br/> <br/>
             <a href="http://ramanihuria.org" target="_blank">read more</a>
         </h2>
