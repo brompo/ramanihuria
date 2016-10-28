@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*@import url(http://fonts.googleapis.com/css?family=Oxygen:700|Source+Sans+Pro:300);*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+
+@font-face {
+    font-family: "Oswald Bold";
+    font-style: normal;
+    font-weight: normal;
+    src:url("../fonts/Oswald-Bold.ttf");
+}
+@font-face {
+    font-family: "Montserrat Bold";
+    font-style: normal;
+    font-weight: normal;
+    src:url("../fonts/Montserrat-Bold.otf");
+}
+
+@font-face {
+    font-family: "Lato light";
+    font-style: normal;
+    font-weight: normal;
+    src:url("../fonts/Lato-Light.ttf");
+}
+@font-face {
+    font-family: "Lato bold";
+    font-style: normal;
+    font-weight: normal;
+    src:url("../fonts/Lato-Bold.ttf");
+}
+@font-face {
+    font-family: "Lato Regular";
+    font-style: normal;
+    font-weight: normal;
+    src:url("../fonts/Lato-Regular.ttf");
+}
+@font-face {
+    font-family: "Lato Hairline";
+    font-style: normal;
+    font-weight: normal;
+    src:url("../fonts/Lato-Hairline.ttf");
+}
+
+
+html,body{
+    width: 100%;
+    /*height: 100%;*/
+    font-family: "Lato light",serif;
+    background: white;
+    overflow-x: hidden;
+
+
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.brand-blue{
+    color: #243953!important;
+    /*background-color: #2091d5!important;*/
+}
+.brand-green{
+    color: #2aa73d !important;
+    /*background-color: #2aa73d !important;*/
+}
+.brand-yellow{
+    color: #f2c71a !important;
+    /*background-color: #f4cc13!important;*/
+}
+
+.brand-blue-bg{
+    /*color: #2091d5!important;*/
+    background-color: #2091d5!important;
+}
+.brand-green-bg{
+    /*color: #2aa73d !important;*/
+    background-color: #2aa73d !important;
+}
+.brand-yellow-bg{
+    /*color: #f4cc13 !important;*/
+    background-color: #f4cc13!important;
+}
+
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.z-0{
+    z-index: 0;
+}
+.z-1{
+    z-index: 1;
+}
+.z-2{
+    z-index: 2;
+}
+.z-3{
+    z-index: 3;
+}
+.z-4{
+    z-index: 4;
+}
+.z-5{
+    z-index: 5;
+}
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative
+}
